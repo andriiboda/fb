@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <title>Кабинет</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="static/css/styles.min.css"><!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script><![endif]-->
+  </head>
+  <body class="cabinet">
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-top">
+          <div class="container header-top__container">
+            <div class="header-top__left">
+              <div class="mob-nav-btn"><span></span><span></span><span></span></div>
+              <div class="phone-nav">
+                <div class="phone-nav__wrap"><a class="phone-nav__item" href="tel:380670079737">380 67 007 97 37</a>
+                  <div class="phone-nav__others"><a class="phone-nav__item" href="tel:380670079737">380 67 007 97 37</a></div>
+                </div><a class="phone-nav__make-call modal-view" href="#orderCall">Заказать звонок сейчас</a>
+              </div>
+            </div><a class="logo" href="index.html"><span class="logo__main">Fabric Land</span><span class="logo__desc">интернет-магазин тканей</span></a>
+            <div class="header-top__right">
+              <div class="socials"><a class="socials__item" href="#">
+                  <svg>
+                    <use xlink:href="static/images/sprite.svg#facebook"></use>
+                  </svg></a><a class="socials__item" href="#">
+                  <svg>
+                    <use xlink:href="static/images/sprite.svg#instagram"></use>
+                  </svg></a></div>
+              <div class="user-nav"><a class="user-nav__item" href="cabinet-my-data.html">
+                  <svg>
+                    <use xlink:href="static/images/sprite.svg#user"></use>
+                  </svg></a><a class="user-nav__item" href="search.html">
+                  <svg>
+                    <use xlink:href="static/images/sprite.svg#search"></use>
+                  </svg></a><a class="user-nav__item" href="cart.html">
+                  <svg>
+                    <use xlink:href="static/images/sprite.svg#cart"></use>
+                  </svg>
+                  <div class="user-nav__item-count">2</div></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="container header-bottom__container">
+            <ul class="main-nav">
+              <li class="main-nav__item"><a class="main-nav__link" href="index.html">Главная</a></li>
+              <li class="main-nav__item"><a class="main-nav__link" href="category.html">Каталог товаров</a></li>
+              <li class="main-nav__item"><a class="main-nav__link" href="about.html">о нас</a></li>
+              <li class="main-nav__item"><a class="main-nav__link" href="shipping-and-payment.html">доставка и оплата</a></li>
+              <li class="main-nav__item"><a class="main-nav__link" href="how-we-work.html">как мы работаем</a></li>
+              <li class="main-nav__item"><a class="main-nav__link" href="blog.html">блог</a></li>
+              <li class="main-nav__item main-nav__item--hide"><a class="main-nav__link" href="faq.html">Вопросы и ответы</a></li>
+              <li class="main-nav__item main-nav__item--hide"><a class="main-nav__link" href="how-we-work.html">Оптовым покупателям</a></li>
+              <li class="main-nav__item main-nav__item--hide"><a class="main-nav__link" href="how-we-work.html">Гарантия</a></li>
+              <li class="main-nav__item"><a class="main-nav__link" href="contacts.html">Контакты</a></li>
+            </ul>
+            <div class="header-bottom__mob-content">
+              <div class="phone-nav">
+                <div class="phone-nav__wrap"><a class="phone-nav__item" href="tel:380670079737">380 67 007 97 37</a>
+                  <div class="phone-nav__others"><a class="phone-nav__item" href="tel:380670079737">380 67 007 97 37</a></div>
+                </div>
+                <button class="phone-nav__make-call">Заказать звонок сейчас</button>
+              </div>
+              <div class="socials"><a class="socials__item" href="#">
+                  <svg>
+                    <use xlink:href="static/images/sprite.svg#facebook"></use>
+                  </svg></a><a class="socials__item" href="#">
+                  <svg>
+                    <use xlink:href="static/images/sprite.svg#instagram"></use>
+                  </svg></a></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <div class="breadcrumb-wrap">
+          <div class="container">
+            <div class="breadcrumb-list"><a class="breadcrumb-link" href="index-shop.html"> <span>Главная</span></a>
+              <div class="breadcrumb-active">Личный кабинет</div>
+            </div>
+          </div>
+        </div>
+        <div class="page cabinet-page">
+          <div class="container">
+            <div class="cabinet-header">
+              <div class="cabinet-header__sidebar">
+                <div class="title">Личный кабинет</div>
+              </div>
+              <div class="cabinet-header__content">
+                <div class="title">история заказов</div>
+              </div>
+            </div>
+            <div class="cabinet-wrap">
+              <div class="cabinet-sidebar-wrap">
+                <div class="cabinet-sidebar">
+                  <div class="cabinet-sidebar__inner"><a class="cabinet-sidebar__item" href="cabinet-my-data.html">
+                      <div class="cabinet-sidebar__icon">
+                        <svg>
+                          <use xlink:href="static/images/sprite.svg#data"></use>
+                        </svg>
+                      </div>
+                      <div class="cabinet-sidebar__name">Настройки</div></a><a class="cabinet-sidebar__item active" href="cabinet-orders.html">
+                      <div class="cabinet-sidebar__icon">
+                        <svg>
+                          <use xlink:href="static/images/sprite.svg#my-order"></use>
+                        </svg>
+                      </div>
+                      <div class="cabinet-sidebar__name">История заказов</div></a><a class="cabinet-sidebar__item" href="cabinet-change-password.html">
+                      <div class="cabinet-sidebar__icon">
+                        <svg>
+                          <use xlink:href="static/images/sprite.svg#change-password"></use>
+                        </svg>
+                      </div>
+                      <div class="cabinet-sidebar__name">Изменить пароль</div></a><a class="cabinet-sidebar__item" href="auth.html">
+                      <div class="cabinet-sidebar__icon">
+                        <svg>
+                          <use xlink:href="static/images/sprite.svg#exit"></use>
+                        </svg>
+                      </div>
+                      <div class="cabinet-sidebar__name">Выход</div></a></div>
+                </div>
+              </div>
+              <div class="cabinet-content">
+                <div class="my-orders"><a class="my-order" href="cabinet-my-order-detail.html">
+                    <div class="my-order__left">
+                      <div class="my-order__title">Заказ № 23451</div>
+                      <div class="my-order__desc">20.12.2019 <strong>6 товаров</strong> на сумму <strong>500 грн</strong> </div>
+                    </div>
+                    <div class="my-order__right">
+                      <div class="my-order__status-title">Статус:</div>
+                      <div class="my-order__status">В процессе</div>
+                    </div></a><a class="my-order" href="cabinet-my-order-detail.html">
+                    <div class="my-order__left">
+                      <div class="my-order__title">Заказ № 23452</div>
+                      <div class="my-order__desc">20.12.2019 <strong>4 товара</strong> на сумму <strong>450 грн</strong> </div>
+                    </div>
+                    <div class="my-order__right">
+                      <div class="my-order__status-title">Статус:</div>
+                      <div class="my-order__status my-order__status--done">Завершено</div>
+                    </div></a><a class="my-order" href="cabinet-my-order-detail.html">
+                    <div class="my-order__left">
+                      <div class="my-order__title">Заказ № 23453</div>
+                      <div class="my-order__desc">20.12.2019 <strong>2 товара</strong> на сумму <strong>126 грн</strong> </div>
+                    </div>
+                    <div class="my-order__right">
+                      <div class="my-order__status-title">Статус:</div>
+                      <div class="my-order__status my-order__status--cancel">Отменено</div>
+                    </div></a><a class="my-order" href="cabinet-my-order-detail.html">
+                    <div class="my-order__left">
+                      <div class="my-order__title">Заказ № 23451</div>
+                      <div class="my-order__desc">20.12.2019 <strong>4 товара</strong> на сумму <strong>450 грн</strong> </div>
+                    </div>
+                    <div class="my-order__right">
+                      <div class="my-order__status-title">Статус:</div>
+                      <div class="my-order__status my-order__status--done">Завершено</div>
+                    </div></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-top">
+            <div class="footer-wrap">
+              <div class="footer-title">Навигация</div>
+              <div class="footer-nav"><a class="footer-link" href="index.html">Главная</a><a class="footer-link" href="category.html">Каталог товаров</a><a class="footer-link" href="blog.html">Блог</a><a class="footer-link" href="cabinet-my-data.html">Мой профиль</a></div>
+            </div>
+            <div class="footer-wrap">
+              <div class="footer-title">Поддержка</div>
+              <div class="footer-nav"><a class="footer-link" href="faq.html">Вопросы и ответы</a><a class="footer-link" href="how-we-work.html">Гарантия</a><a class="footer-link" href="how-we-work.html">Как мы работаем</a><a class="footer-link" href="how-we-work.html">Оптовым покупателям</a></div>
+            </div>
+            <div class="footer-wrap">
+              <div class="footer-title">О нас</div>
+              <div class="footer-nav"><a class="footer-link" href="about.html">О нас</a><a class="footer-link" href="shipping-and-payment.html">Доставка и оплата</a><a class="footer-link" href="contacts.html">Контакты</a></div>
+            </div>
+            <div class="footer-wrap">
+              <div class="footer-title">связаться с нами</div>
+              <div class="footer-contacts">
+                <div class="footer-contacts__item">
+                  <div class="footer-contacts__ico footer-contacts__ico--mark">
+                    <svg>
+                      <use xlink:href="static/images/sprite.svg#mark"></use>
+                    </svg>
+                  </div>
+                  <div class="footer-contacts__info">Украина, Луцк</div>
+                </div>
+                <div class="footer-contacts__item">
+                  <div class="footer-contacts__ico footer-contacts__ico--phone">
+                    <svg>
+                      <use xlink:href="static/images/sprite.svg#phone"></use>
+                    </svg>
+                  </div>
+                  <div class="footer-contacts__info">+380 67 007 97 37</div>
+                </div>
+                <div class="footer-contacts__item">
+                  <div class="footer-contacts__ico footer-contacts__ico--phone">
+                    <svg>
+                      <use xlink:href="static/images/sprite.svg#phone"></use>
+                    </svg>
+                  </div>
+                  <div class="footer-contacts__info">+380 93 507 53 14</div>
+                </div>
+                <div class="footer-contacts__item">
+                  <div class="footer-contacts__ico footer-contacts__ico--mail">
+                    <svg>
+                      <use xlink:href="static/images/sprite.svg#mail"></use>
+                    </svg>
+                  </div>
+                  <div class="footer-contacts__info">fabricland.com.ua@gmail.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom"> 
+            <div class="copyright">© 2019. Все права защищены.</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="modal-wrap" id="orderCall">
+      <div class="modal-bg"></div>
+      <div class="modal-inner">
+        <div class="modal">
+          <div class="modal__head">
+            <div class="modal__title">Заказать звонок</div>
+          </div>
+          <div class="modal__body">
+            <form>
+              <div class="form-wrap">
+                <div class="input-wrap">
+                  <label class="label">Имя</label>
+                  <input class="input" type="text" placeholder="Им'я">
+                </div>
+                <div class="input-wrap">
+                  <label class="label">Номер телефона</label>
+                  <input class="input" type="tel" placeholder="+38 (___) ___-____">
+                </div>
+              </div>
+              <div class="modal-btns">
+                <button class="btn modal__btn-close" type="button">продолжить покупки</button>
+                <button class="btn">отправить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-wrap" id="beforeCall">
+      <div class="modal-bg"></div>
+      <div class="modal-inner">
+        <div class="modal">
+          <div class="modal__general">
+            <div class="modal__close">
+              <svg>
+                <use xlink:href="static/images/sprite.svg#close"></use>
+              </svg>
+            </div>
+            <div class="modal__pic">
+              <svg>
+                <use xlink:href="static/images/sprite.svg#afterCall"></use>
+              </svg>
+            </div>
+            <div class="modal__title">Большое спасибо!</div>
+            <div class="modal__desc">Ваш запрос на обратный звонок отправлено. Наш менеджер свяжется с вами в ближайшее время и ответит на все вопросы.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="loader"></div>
+    <script src="static/js/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="static/js/libs.min.js"></script>
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
